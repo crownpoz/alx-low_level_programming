@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (success/correct)
  */
 int main(void)
-
 {
-char alphabet;
+char c;
 
-for (alphabet = 122 ; alphabet >= 97; alphabet--)
-{
-putchar(alphabet);
-} 
+for (c = 'z'; c >= 'a'; --c)
+putchar(c);
 
 putchar('\n');
 
 return (0);
-
 }
