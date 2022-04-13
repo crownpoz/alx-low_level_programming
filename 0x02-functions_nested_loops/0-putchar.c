@@ -17,5 +17,5 @@
  _putchar('r');
  _putchar('\n');
 
- Return (0);
+ Return (void);
  }
