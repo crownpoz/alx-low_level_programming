@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main -Prints first 50 fibonnaci numbers, starting with 1 and 2, followed by comma and space
