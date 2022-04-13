@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *_abs -absolute value
+ *_abs -value absolute
  *
  * @n: int to print
- * Return: Always (0)
+ * Return: Always 0
  */
 
 int _abs(int n)
