@@ -17,7 +17,7 @@ while (s[c] != '\0')
 c++;
 }
 
-For (c = c - 1 ; c >= 0; c--)
+for (c = c - 1 ; c >= 0; c--)
 {
 _putchar (s[c]);
 }
