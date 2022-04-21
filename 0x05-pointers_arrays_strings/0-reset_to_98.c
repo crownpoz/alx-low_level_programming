@@ -2,8 +2,8 @@
 
 /**
  *reset_to_98 - reset integer to 98
- *@n - a pointer to an int that will be updated
- * 
+ *@n: a pointer to an int that will be updated
+ *
  *Return: returns void
  */
 
