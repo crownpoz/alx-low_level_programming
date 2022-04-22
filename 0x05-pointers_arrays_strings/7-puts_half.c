@@ -5,7 +5,7 @@
  *@str: pointer to an int that would be changed
  *
  */
- void puts_half(char *str)
+void puts_half(char *str)
 
 {
 int a, last;
@@ -23,5 +23,5 @@ for (a = last; str[a]; a++)
 _putchar (str[a]);
 }
 
-_putchar ('\n'); 
+_putchar ('\n');
 }
