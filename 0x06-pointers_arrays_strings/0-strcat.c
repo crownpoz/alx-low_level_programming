@@ -15,7 +15,7 @@ c = 0;
 while (dest[c]);
 c++;
 for (c2 = 0; src[c2] ; c2++)
-dest[c2++] = src[c2];
+dest[c++] = src[c2];
 return (dest);
 }
 
