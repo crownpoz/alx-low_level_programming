@@ -4,21 +4,31 @@
  *_srtncat - concatenates two strings
  *@dest: pointer to the destination input
  *@src: pointer to the source input
- *@n: number of bytes from @src
+ *@n: number of bytes from src
  *
  *Return: dest
  */
   
 char *_strncat(char *dest, char *src, int n)
 {
-int c, i;
+int c = 0, i = 0;
 
-c = 0;
-while (dest[c])
+while (dest[c] != '\0')
 c++;
-for (i = 0; i < n && src[i] != '\0'; i++)
-dest[c + i] = src[i];
-dest[c + i] = '\0';
+
+while (n > i && src[i] != '\0')
+{
+dest[c] = src[i];
+c++;
+i++;
+}
+if (n > 0)
+{
+dest[i] = '\0';
+}
+
+return (dest);
+}
 
 return (dest);
 }
