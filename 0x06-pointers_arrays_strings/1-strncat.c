@@ -1,16 +1,18 @@
 #include "main.h"
+
 /**
  *_srtncat - concatenates two strings
  *@dest: pointer to the destination input
  *@src: pointer to the source input
  *@n: number of bytes from @src
  *
- *Return: @dest
+ *Return: dest
  */
   
 char *_strncat(char *dest, char *src, int n)
 {
 int c, i;
+
 c = 0;
 while (dest[c])
 c++;
