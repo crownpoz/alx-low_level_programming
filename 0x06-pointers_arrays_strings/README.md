@@ -1,1 +1,1 @@
-my readme for more pointers and arrays
+more pointers and arrays
