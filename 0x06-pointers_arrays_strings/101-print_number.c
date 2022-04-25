@@ -6,7 +6,7 @@
  *Return: always 0(success)
  */
 
-void print_numbers(int n)
+void print_number(int n)
 {
 int power, neg, hold;
 
