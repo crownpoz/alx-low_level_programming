@@ -15,6 +15,6 @@ if (s[a] > 96 && s[a] < 123)
 s[a] -= 32;
 }
 }
-return(s);
+return (s);
 
 }
