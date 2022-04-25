@@ -6,13 +6,13 @@
  *Return: always 0(success)
  */
 
-void print_numbers(int x)
+void print_numbers(int n)
 {
 int power, neg, hold;
 
-neg - 0;
-power - 1;
-hold - n;
+neg = 0;
+power = 1;
+hold = n;
 if (n < 0)
 {
 _putchar('-');
