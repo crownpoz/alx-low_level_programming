@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_srtncat - like _strcat but it will use n bytes from src
  *@dest: string to be concatenated
@@ -6,6 +7,7 @@
  *@n: number of bytes that will be used from src
  *Return: pointer to the resulting string dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 int c, i;
