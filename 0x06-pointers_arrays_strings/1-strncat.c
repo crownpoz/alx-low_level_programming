@@ -19,5 +19,7 @@ for (i = 0; src[i] != '\0' && n > 0; i++, n--, c++)
 dest[c] = src[i];
 }
 
+_putchar ('\n');
+
 return (dest);
 }
