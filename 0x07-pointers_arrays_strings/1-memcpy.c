@@ -9,9 +9,8 @@
 *Return: memory area replaced
 */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+ *_memcpy(char *dest, char *src, unsigned int n)
 unsigned int a;
-a = 0;
 
 for (a = 0; a < n; a++)
 {
