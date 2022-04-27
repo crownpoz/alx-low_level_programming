@@ -2,8 +2,8 @@
 
 /**
  *_strstr - locate a substring
- *haystack: the string to search
- *needle: the string to find
+ *@haystack: the string to search
+ *@needle: the string to find
  *
  *Return: char value
  */
