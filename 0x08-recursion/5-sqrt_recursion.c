@@ -8,7 +8,6 @@ int _sqrt_recursion(int n);
 {
 return (_sqrt(n, 1));
 }
-
 /**
  *_sqrt - _sqrt_recursion
  *@n: integer parameter
