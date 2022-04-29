@@ -21,7 +21,7 @@ return (divisors(n + 2, m));
 }
 else
 {
-return(1);
+return (1);
 }
 }
 
