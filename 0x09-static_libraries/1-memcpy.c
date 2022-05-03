@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memcpy - copies integers
- * @dest: pointer to char parameter
- * @src: pointer to char parameter
+ * _memcpy - copies two characters:
+ * @dest: pointer to char params
+ * @src: pointer to char params
  * @n: size
  * Return: *dest
  */
