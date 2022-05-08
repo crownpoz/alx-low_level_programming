@@ -8,6 +8,7 @@
  */
 void print_times_table(int n)
 {int counter;
+int n;
 
 for (counter = 0; counter <= 10; counter++)
 {
