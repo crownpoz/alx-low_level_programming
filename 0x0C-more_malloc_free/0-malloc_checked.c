@@ -1,8 +1,15 @@
 #include "main.h"
+#include <stdlib.h>
+/**
+*malloc_checked -allocates memory using malloc
+*@b:number of bytes to be allocated
+*Return: pointer to the created memory space
+*/
 
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
+
 	ptr = malloc(b);
 	if (ptr == NULL)
 		exit(98);
