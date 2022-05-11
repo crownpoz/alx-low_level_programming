@@ -2,9 +2,9 @@
 #define DOG_H
 
 /**
- *struc dog - structure dog
+ *struct dog - structure dog
  *@name: pointer to char name dog
- *@age: pointer to dogs age float
+ *@age: attribute to dogs age float
  *@owner: pointer to owners name char
  */
 
