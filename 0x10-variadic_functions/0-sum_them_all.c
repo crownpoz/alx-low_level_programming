@@ -3,7 +3,6 @@
 
 /**
  *sum_them_all - gives the sum of all its parameters
- *@sum: sum of all its parameters
  *@n: n arguments
  *Return: sum or if n == 0, return 0
  */
