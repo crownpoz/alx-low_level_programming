@@ -17,8 +17,10 @@ int c;
 c = a * b;
 return (c);
 }
-div_t div(int a, int b);
-
+div_t div(int a, int b)
+{
+return(a/b)
+}
 int mod(int a, int b)
 {
 int c;
